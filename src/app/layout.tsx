@@ -3,6 +3,8 @@ import { Poppins, PT_Serif } from "next/font/google";
 
 import "./globals.css";
 
+import { MainNavigation } from "@/components/main-nav";
+
 const fontSans = Poppins({
   subsets: ["latin"],
   variable: "--font-sans",
@@ -29,6 +31,7 @@ export default function RootLayout({
       <body
         className={`${fontSans.variable} ${fontSerif.variable} font-sans antialiased`}
       >
+        <MainNavigation />
         {children}
       </body>
     </html>
