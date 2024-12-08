@@ -3,6 +3,7 @@ import { Poppins, PT_Serif } from "next/font/google";
 
 import "./globals.css";
 
+import { Footer } from "@/components/footer";
 import { MainNavigation } from "@/components/main-nav";
 
 const fontSans = Poppins({
@@ -33,6 +34,7 @@ export default function RootLayout({
       >
         <MainNavigation />
         {children}
+        <Footer />
       </body>
     </html>
   );
