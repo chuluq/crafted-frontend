@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Search } from "lucide-react";
 
-import { Logo } from "./logo";
+import { Logo } from "@/components/logo";
 
 export const MainNavigation = () => {
   return (
@@ -11,36 +11,36 @@ export const MainNavigation = () => {
         <div className="flex items-center gap-x-6">
           <Link
             href={"/#home"}
-            className="text-base font-normal capitalize text-[#6D7280]"
+            className="text-base font-normal capitalize text-[#6D7280] hover:text-accents"
           >
             Home
           </Link>
           <Link
             href={"/#home"}
-            className="text-base font-normal capitalize text-[#6D7280]"
+            className="text-base font-normal capitalize text-[#6D7280] hover:text-accents"
           >
             Travel
           </Link>
           <Link
             href={"/#home"}
-            className="text-base font-normal capitalize text-[#6D7280]"
+            className="text-base font-normal capitalize text-[#6D7280] hover:text-accents"
           >
             Food
           </Link>
           <Link
             href={"/#home"}
-            className="text-base font-normal capitalize text-[#6D7280]"
+            className="text-base font-normal capitalize text-[#6D7280] hover:text-accents"
           >
             Lifestyle
           </Link>
           <Link
             href={"/#home"}
-            className="text-base font-normal capitalize text-[#6D7280]"
+            className="text-base font-normal capitalize text-[#6D7280] hover:text-accents"
           >
             Fashion
           </Link>
         </div>
-        <div className="bg-off-white focus-visible:ring-ring flex items-center gap-x-[10px] px-4 py-3">
+        <div className="flex items-center gap-x-[10px] bg-off-white px-4 py-3 focus-visible:ring-ring">
           <Search color="#272343" />
           <input
             placeholder="Search here..."
