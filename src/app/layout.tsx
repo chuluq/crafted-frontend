@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { PT_Serif, Poppins } from "next/font/google";
+import { Poppins, PT_Serif } from "next/font/google";
+
 import "./globals.css";
 
 const fontSans = Poppins({
