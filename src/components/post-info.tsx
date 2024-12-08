@@ -18,7 +18,7 @@ export const PostInfo = ({
 }: React.ComponentProps<"div"> & TPostInfo) => {
   return (
     <div
-      className={cn("flex w-[424px] flex-col bg-off-white p-6", className)}
+      className={cn("flex max-w-[424px] flex-col bg-off-white p-6", className)}
       {...props}
     >
       <Category category={category} />
