@@ -28,7 +28,7 @@ export const PostInfo = ({
       <Info date={date} readingTime={readingTime} className="mt-[10px]" />
       <Link
         href={link}
-        className="mt-5 flex items-center gap-x-2 text-base font-medium leading-6 text-[#272343] hover:text-accents"
+        className="mt-5 flex w-fit items-center gap-x-2 text-base font-medium leading-6 text-[#272343] hover:text-accents"
       >
         Read Article
         <MoveRight size={24} />
