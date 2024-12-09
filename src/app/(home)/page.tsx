@@ -1,3 +1,4 @@
+import { AllPost } from "@/components/home/all-post";
 import { FeaturedPost } from "@/components/home/featured-post";
 import { Hero } from "@/components/home/hero";
 import { LatestPost } from "@/components/home/latest-post";
@@ -10,6 +11,7 @@ export default function Home() {
       <RecentPost />
       <LatestPost />
       <FeaturedPost />
+      <AllPost />
     </>
   );
 }
